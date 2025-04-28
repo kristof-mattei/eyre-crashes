@@ -9,7 +9,11 @@
             "request": "launch",
             "name": "Debug executable 'eyre-crashes'",
             "cargo": {
-                "args": ["build", "--bin=eyre-crashes", "--package=eyre-crashes"],
+                "args": [
+                    "build",
+                    "--bin=eyre-crashes",
+                    "--package=eyre-crashes"
+                ],
                 "filter": {
                     "name": "eyre-crashes",
                     "kind": "bin"
